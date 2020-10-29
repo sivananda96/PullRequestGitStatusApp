@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.prlist.UserAccountFragment"
+    android:layout_margin="16dp"
+    >
+
+    <EditText
+        android:id="@+id/etGitHubOwnerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Github Owner name"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintBottom_toTopOf="@+id/etGitHubRepoName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etGitHubRepoName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Repository Name"
+        android:layout_marginTop="16dp"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/btnSubmit"
+        app:layout_constraintTop_toBottomOf="@+id/etGitHubOwnerName" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etGitHubRepoName" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

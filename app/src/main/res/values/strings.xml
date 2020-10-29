@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PullRequestGitStatusApp</string>
+    <string name="toolbar_title">Pull Requests</string>
+
+    <string name="no_open_pull_request">No open pull request found!</string>
+
+    <string name="default_error_message">Something went wrong! Please try again.</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="label_refresh">Refresh</string>
+
+    <string name="pr_item_footer_text">opened %s by %s</string>
+    <string name="pr_search_hint">Search - owner/repo…</string>
+    <string name="search_msg_start_searching">Please Wait… Loading The Results!</string>
+    <string name="search_msg_repo_not_found">Repo not found! Try something else…</string>
+    <string name="search_query_empty">Search query is empty!</string>
+    <string name="search_query_invalid">Please enter a valid query!</string>
+
+    <string name="label_loading_in_progress">Loading…</string>
+    <string name="label_loading_reset">Reset…</string>
+    <string name="label_loading_success">Success…</string>
+    <string name="label_loading_empty">Empty…</string>
+    <string name="label_loading_failed">Failed…</string>
+    <string name="error_cannot_load_more">Can\'t load more</string>
+</resources>
